@@ -19,6 +19,7 @@ int main()
 
     // Exercises Section 1.4.3
     // Exercise 1.16: Write your own version of a program that prints the sum of a set of integers read from cin.
+    
     int exitFlag{1};
     do
     {

@@ -3,17 +3,16 @@
 
 using namespace std;
 
-void displayInvoice(Invoice Invoice)
+void displayInvoice(Invoice invoice)
 {
-
-    cout << "Info :" << endl;
     cout << "================" << endl;
-    cout << "Id : " << Invoice.getId() << endl;
-    cout << "Describe : " << Invoice.getDescribe() << endl;
-    cout << "Sales number : " << Invoice.getSalesNumber() << endl;
-    cout << "Unit price : " << Invoice.getUnitPrice() << endl;
-    cout << "Amount : " << Invoice.getInvoiceAmount() << endl;
-    cout << "================" << endl << endl;
+    cout << "Id : " << invoice.getId() << endl;
+    cout << "Describe : " << invoice.getDescribe() << endl;
+    cout << "Sales number : " << invoice.getSalesNumber() << endl;
+    cout << "Unit price : " << invoice.getUnitPrice() << endl;
+    cout << "Amount : " << invoice.getInvoiceAmount() << endl;
+    cout << "================" << endl
+         << endl;
 }
 
 int main()

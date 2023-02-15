@@ -1,13 +1,13 @@
-#include <iostream>
-#include <string>
+#ifndef INVOICE_H
+#define INVOICE_H
 
-using namespace std;
+#include <string>
 
 class Invoice
 {
 public:
     Invoice(string, string, int, int);
-    void setId(string num);
+    void setId(string);
     void setDescribe(string);
     void setSalesNumber(int);
     void setUnitPrice(int);
@@ -23,3 +23,5 @@ private:
     int salesNumber; // 售出量
     int unitPrice;   // 单价
 };
+
+#endif

@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include "Invoice.h"
 
@@ -22,33 +21,33 @@ int Invoice::getInvoiceAmount()
     }
     return result;
 }
-void Invoice::setId(string num)
+void Invoice::setId(string i)
 {
-    id = num;
+    id = i;
 };
 string Invoice::getId()
 {
     return id;
 };
-void Invoice::setDescribe(string describe)
+void Invoice::setDescribe(string d)
 {
-    describe = describe;
+    describe = d;
 };
 string Invoice::getDescribe()
 {
     return describe;
 };
-void Invoice::setSalesNumber(int salesNumber)
+void Invoice::setSalesNumber(int s)
 {
-    salesNumber = salesNumber;
+    salesNumber = s;
 };
 int Invoice::getSalesNumber()
 {
     return salesNumber;
 };
-void Invoice::setUnitPrice(int unitPrice)
+void Invoice::setUnitPrice(int u)
 {
-    unitPrice = unitPrice;
+    unitPrice = u;
 };
 int Invoice::getUnitPrice()
 {

@@ -1,6 +1,7 @@
 #ifndef INVOICE_H
 #define INVOICE_H
 
+#include <string>
 using namespace std;
 
 class Invoice

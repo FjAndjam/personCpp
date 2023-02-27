@@ -1,6 +1,8 @@
 #ifndef __MYCOMPLEX__
 #define __MYCOMPLEX__
 
+// Class without pointer member(s).
+
 class complex {
 public:
   complex(double r = 0.0, double i = 0.0) : re(r), im(i){};

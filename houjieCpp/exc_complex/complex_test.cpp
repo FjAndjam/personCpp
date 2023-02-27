@@ -1,5 +1,5 @@
-#include "complex.h"
 #include <iostream>
+#include "complex.h"
 
 std::ostream &operator<<(std::ostream &os, const complex &x) {
   return os << "(" << x.real() << "," << x.imag() << ")";
